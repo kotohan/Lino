@@ -6,8 +6,13 @@ import SwiftUI
 @main
 struct LinoApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("Lino") {
+            Button("Quit Lino...") {
+                NSApp.terminate(nil)
+            }
         }
+//        WindowGroup {
+//            ContentView()
+//        }
     }
 }
