@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F003BA8F2A1F1921005667BD /* LinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BA8E2A1F1921005667BD /* LinoApp.swift */; };
-		F003BA912A1F1921005667BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BA902A1F1921005667BD /* ContentView.swift */; };
+		F003BA8F2A1F1921005667BD /* Lino.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BA8E2A1F1921005667BD /* Lino.swift */; };
 		F003BA932A1F1923005667BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F003BA922A1F1923005667BD /* Assets.xcassets */; };
 		F003BA962A1F1923005667BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F003BA952A1F1923005667BD /* Preview Assets.xcassets */; };
 		F003BAA12A1F1923005667BD /* LinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BAA02A1F1923005667BD /* LinoTests.swift */; };
@@ -35,8 +34,7 @@
 
 /* Begin PBXFileReference section */
 		F003BA8B2A1F1921005667BD /* Lino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lino.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F003BA8E2A1F1921005667BD /* LinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinoApp.swift; sourceTree = "<group>"; };
-		F003BA902A1F1921005667BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F003BA8E2A1F1921005667BD /* Lino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lino.swift; sourceTree = "<group>"; };
 		F003BA922A1F1923005667BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F003BA952A1F1923005667BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F003BA972A1F1923005667BD /* Lino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lino.entitlements; sourceTree = "<group>"; };
@@ -95,8 +93,7 @@
 		F003BA8D2A1F1921005667BD /* Lino */ = {
 			isa = PBXGroup;
 			children = (
-				F003BA8E2A1F1921005667BD /* LinoApp.swift */,
-				F003BA902A1F1921005667BD /* ContentView.swift */,
+				F003BA8E2A1F1921005667BD /* Lino.swift */,
 				F003BA922A1F1923005667BD /* Assets.xcassets */,
 				F003BA972A1F1923005667BD /* Lino.entitlements */,
 				F003BA942A1F1923005667BD /* Preview Content */,
@@ -259,8 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F003BA912A1F1921005667BD /* ContentView.swift in Sources */,
-				F003BA8F2A1F1921005667BD /* LinoApp.swift in Sources */,
+				F003BA8F2A1F1921005667BD /* Lino.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
