@@ -1,9 +1,5 @@
-//
-//  LinoUITests.swift
-//  LinoUITests
-//
-//  Created by 中山 琴葉 on 2023/05/25.
-//
+// Lino UITests
+// Copyright 2023 kotohan
 
 import XCTest
 

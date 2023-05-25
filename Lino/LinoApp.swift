@@ -1,9 +1,5 @@
-//
-//  LinoApp.swift
-//  Lino
-//
-//  Created by 中山 琴葉 on 2023/05/25.
-//
+// Lino
+// Copyright 2023 kotohan
 
 import SwiftUI
 
