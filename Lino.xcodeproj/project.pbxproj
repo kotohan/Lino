@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F003BA8F2A1F1921005667BD /* LinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BA8E2A1F1921005667BD /* LinoApp.swift */; };
+		F003BA912A1F1921005667BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BA902A1F1921005667BD /* ContentView.swift */; };
+		F003BA932A1F1923005667BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F003BA922A1F1923005667BD /* Assets.xcassets */; };
+		F003BA962A1F1923005667BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F003BA952A1F1923005667BD /* Preview Assets.xcassets */; };
+		F003BAA12A1F1923005667BD /* LinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BAA02A1F1923005667BD /* LinoTests.swift */; };
+		F003BAAB2A1F1923005667BD /* LinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BAAA2A1F1923005667BD /* LinoUITests.swift */; };
+		F003BAAD2A1F1923005667BD /* LinoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003BAAC2A1F1923005667BD /* LinoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F003BA9D2A1F1923005667BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F003BA832A1F1921005667BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F003BA8A2A1F1921005667BD;
+			remoteInfo = Lino;
+		};
+		F003BAA72A1F1923005667BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F003BA832A1F1921005667BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F003BA8A2A1F1921005667BD;
+			remoteInfo = Lino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F003BA8B2A1F1921005667BD /* Lino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F003BA8E2A1F1921005667BD /* LinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinoApp.swift; sourceTree = "<group>"; };
+		F003BA902A1F1921005667BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F003BA922A1F1923005667BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F003BA952A1F1923005667BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F003BA972A1F1923005667BD /* Lino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lino.entitlements; sourceTree = "<group>"; };
+		F003BA9C2A1F1923005667BD /* LinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F003BAA02A1F1923005667BD /* LinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinoTests.swift; sourceTree = "<group>"; };
+		F003BAA62A1F1923005667BD /* LinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F003BAAA2A1F1923005667BD /* LinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinoUITests.swift; sourceTree = "<group>"; };
+		F003BAAC2A1F1923005667BD /* LinoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F003BA882A1F1921005667BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F003BA992A1F1923005667BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F003BAA32A1F1923005667BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F003BA822A1F1921005667BD = {
+			isa = PBXGroup;
+			children = (
+				F003BA8D2A1F1921005667BD /* Lino */,
+				F003BA9F2A1F1923005667BD /* LinoTests */,
+				F003BAA92A1F1923005667BD /* LinoUITests */,
+				F003BA8C2A1F1921005667BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F003BA8C2A1F1921005667BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F003BA8B2A1F1921005667BD /* Lino.app */,
+				F003BA9C2A1F1923005667BD /* LinoTests.xctest */,
+				F003BAA62A1F1923005667BD /* LinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F003BA8D2A1F1921005667BD /* Lino */ = {
+			isa = PBXGroup;
+			children = (
+				F003BA8E2A1F1921005667BD /* LinoApp.swift */,
+				F003BA902A1F1921005667BD /* ContentView.swift */,
+				F003BA922A1F1923005667BD /* Assets.xcassets */,
+				F003BA972A1F1923005667BD /* Lino.entitlements */,
+				F003BA942A1F1923005667BD /* Preview Content */,
+			);
+			path = Lino;
+			sourceTree = "<group>";
+		};
+		F003BA942A1F1923005667BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F003BA952A1F1923005667BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F003BA9F2A1F1923005667BD /* LinoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F003BAA02A1F1923005667BD /* LinoTests.swift */,
+			);
+			path = LinoTests;
+			sourceTree = "<group>";
+		};
+		F003BAA92A1F1923005667BD /* LinoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F003BAAA2A1F1923005667BD /* LinoUITests.swift */,
+				F003BAAC2A1F1923005667BD /* LinoUITestsLaunchTests.swift */,
+			);
+			path = LinoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F003BA8A2A1F1921005667BD /* Lino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F003BAB02A1F1923005667BD /* Build configuration list for PBXNativeTarget "Lino" */;
+			buildPhases = (
+				F003BA872A1F1921005667BD /* Sources */,
+				F003BA882A1F1921005667BD /* Frameworks */,
+				F003BA892A1F1921005667BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lino;
+			productName = Lino;
+			productReference = F003BA8B2A1F1921005667BD /* Lino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F003BA9B2A1F1923005667BD /* LinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F003BAB32A1F1923005667BD /* Build configuration list for PBXNativeTarget "LinoTests" */;
+			buildPhases = (
+				F003BA982A1F1923005667BD /* Sources */,
+				F003BA992A1F1923005667BD /* Frameworks */,
+				F003BA9A2A1F1923005667BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F003BA9E2A1F1923005667BD /* PBXTargetDependency */,
+			);
+			name = LinoTests;
+			productName = LinoTests;
+			productReference = F003BA9C2A1F1923005667BD /* LinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F003BAA52A1F1923005667BD /* LinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F003BAB62A1F1923005667BD /* Build configuration list for PBXNativeTarget "LinoUITests" */;
+			buildPhases = (
+				F003BAA22A1F1923005667BD /* Sources */,
+				F003BAA32A1F1923005667BD /* Frameworks */,
+				F003BAA42A1F1923005667BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F003BAA82A1F1923005667BD /* PBXTargetDependency */,
+			);
+			name = LinoUITests;
+			productName = LinoUITests;
+			productReference = F003BAA62A1F1923005667BD /* LinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F003BA832A1F1921005667BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F003BA8A2A1F1921005667BD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F003BA9B2A1F1923005667BD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F003BA8A2A1F1921005667BD;
+					};
+					F003BAA52A1F1923005667BD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F003BA8A2A1F1921005667BD;
+					};
+				};
+			};
+			buildConfigurationList = F003BA862A1F1921005667BD /* Build configuration list for PBXProject "Lino" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F003BA822A1F1921005667BD;
+			productRefGroup = F003BA8C2A1F1921005667BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F003BA8A2A1F1921005667BD /* Lino */,
+				F003BA9B2A1F1923005667BD /* LinoTests */,
+				F003BAA52A1F1923005667BD /* LinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F003BA892A1F1921005667BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F003BA962A1F1923005667BD /* Preview Assets.xcassets in Resources */,
+				F003BA932A1F1923005667BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F003BA9A2A1F1923005667BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F003BAA42A1F1923005667BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F003BA872A1F1921005667BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F003BA912A1F1921005667BD /* ContentView.swift in Sources */,
+				F003BA8F2A1F1921005667BD /* LinoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F003BA982A1F1923005667BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F003BAA12A1F1923005667BD /* LinoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F003BAA22A1F1923005667BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F003BAAD2A1F1923005667BD /* LinoUITestsLaunchTests.swift in Sources */,
+				F003BAAB2A1F1923005667BD /* LinoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F003BA9E2A1F1923005667BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F003BA8A2A1F1921005667BD /* Lino */;
+			targetProxy = F003BA9D2A1F1923005667BD /* PBXContainerItemProxy */;
+		};
+		F003BAA82A1F1923005667BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F003BA8A2A1F1921005667BD /* Lino */;
+			targetProxy = F003BAA72A1F1923005667BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F003BAAE2A1F1923005667BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F003BAAF2A1F1923005667BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F003BAB12A1F1923005667BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lino/Lino.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lino/Preview Content\"";
+				DEVELOPMENT_TEAM = HNBT5A6KB4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nakochi.Lino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F003BAB22A1F1923005667BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lino/Lino.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lino/Preview Content\"";
+				DEVELOPMENT_TEAM = HNBT5A6KB4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nakochi.Lino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F003BAB42A1F1923005667BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNBT5A6KB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nakochi.LinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lino.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lino";
+			};
+			name = Debug;
+		};
+		F003BAB52A1F1923005667BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNBT5A6KB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nakochi.LinoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lino.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lino";
+			};
+			name = Release;
+		};
+		F003BAB72A1F1923005667BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNBT5A6KB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nakochi.LinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lino;
+			};
+			name = Debug;
+		};
+		F003BAB82A1F1923005667BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNBT5A6KB4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.nakochi.LinoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lino;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F003BA862A1F1921005667BD /* Build configuration list for PBXProject "Lino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F003BAAE2A1F1923005667BD /* Debug */,
+				F003BAAF2A1F1923005667BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F003BAB02A1F1923005667BD /* Build configuration list for PBXNativeTarget "Lino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F003BAB12A1F1923005667BD /* Debug */,
+				F003BAB22A1F1923005667BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F003BAB32A1F1923005667BD /* Build configuration list for PBXNativeTarget "LinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F003BAB42A1F1923005667BD /* Debug */,
+				F003BAB52A1F1923005667BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F003BAB62A1F1923005667BD /* Build configuration list for PBXNativeTarget "LinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F003BAB72A1F1923005667BD /* Debug */,
+				F003BAB82A1F1923005667BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F003BA832A1F1921005667BD /* Project object */;
+}
