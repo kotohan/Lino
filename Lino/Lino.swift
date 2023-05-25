@@ -7,9 +7,13 @@ import SwiftUI
 struct Lino: App {
     var body: some Scene {
         MenuBarExtra("Lino", image: "LinoMenuIcon") {
-            Button("Quit Lino…") {
-                NSApp.terminate(nil)
+            HStack {
+                Button("Quit Lino…") {
+                    NSApplication.shared.terminate(self)
+                }
             }
+            .frame(width: 320, height: 560)
         }
+        .menuBarExtraStyle(.window)
     }
 }
