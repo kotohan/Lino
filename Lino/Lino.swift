@@ -4,9 +4,9 @@
 import SwiftUI
 
 @main
-struct LinoApp: App {
+struct Lino: App {
     var body: some Scene {
-        MenuBarExtra("Lino", image: "Lumine") {
+        MenuBarExtra("Lino", image: "LinoMenuIcon") {
             Button("Quit Lino…") {
                 NSApp.terminate(nil)
             }
